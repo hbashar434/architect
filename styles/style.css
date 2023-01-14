@@ -1,0 +1,84 @@
+/*----------google font---------*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/*------- asterisk start --------*/
+*{
+    margin: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ----------header part start----------- */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.container {
+    margin: 0 240px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+  .nav-title {
+    font-weight: 700px;
+    font-size: 45px;
+  }
+  .banner-container {
+    margin-top: 100px;
+    text-align: center; 
+  }
+  .banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 30px;
+  }
+  .banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+  }
+  .btn-primary {
+    border: none;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+  }
+  .banner-img img{
+    width: 100%;
+    margin: 50px 0 45px 0;
+  }
+  /* ----------header part end----------- */
+
+  /* ----------main part start----------- */
+  .features-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .features-img{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+  }
+
+
+
+
+
+
