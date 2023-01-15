@@ -346,8 +346,8 @@ main {
     flex-direction: column;
   }
   .acrhitect-title {
-    border-left: 3px solid #ff900e;
-    padding-left: 2px;
+    border-left: 2px solid #ff900e;
+    padding-left: 3px;
     font-weight: 700;
     font-size: 25px;
     line-height: 33px;
