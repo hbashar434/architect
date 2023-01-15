@@ -235,6 +235,7 @@ nav {
   .sponsor-logo-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   /* ----------contact section start----------- */
   .contact-section {
