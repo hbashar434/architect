@@ -136,17 +136,17 @@ nav {
     color: #727272;
   }
   .architect-img img {
-    padding-left: 92px;
+    padding: 50px;
     width: 100%;
   }
   .btn-img {
     position: relative;
-    bottom: 125px;
-    width: 342px;
-    height: 200px;
-    font-size: 65px;
+    bottom: 110px;
+    /* width: 342px;
+    height: 200px; */
+    font-size: 50px;
     font-weight: 700px;
-    padding: 40px 37px;
+    padding: 16px 15px;
     background-color: #FF900E;
     border: none;
     border-radius: 8px;
@@ -155,7 +155,7 @@ nav {
     z-index: 1;
   }
   .experience {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500px;
   }
   /* ----------Project section start----------- */
