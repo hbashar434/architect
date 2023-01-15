@@ -67,6 +67,10 @@ nav {
   /* ----------header part end----------- */
 
   /* ----------main part start----------- */
+  main {
+    margin-bottom: 130px;
+  }
+  /* ----------features section start----------- */
   .features-container {
     display: flex;
     margin-top: 85px;
@@ -92,6 +96,202 @@ nav {
     color: #727272;
     margin: 24px 0 30px 0;
   }
+  /* ----------architect information start----------- */
+  .architect-container {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+  }
+  .architect-information {
+    border-left: 5px solid #FF900E;
+    height: 106px;
+    padding-left: 20px;
+  }
+  .acrhitect-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+  }
+  .architect-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 24px 0 30px 0;
+  }
+  .article-item {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 10px;
+  }
+  .article-item-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+  .article-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+  }
+  .architect-img img {
+    padding-left: 92px;
+  }
+  .btn-img {
+    position: relative;
+    bottom: 125px;
+    width: 342px;
+    height: 200px;
+    font-size: 65px;
+    font-weight: 700px;
+    padding: 45px 42px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+  }
+  .experience {
+    font-size: 25px;
+    font-weight: 500px;
+  }
+  /* ----------Project section start----------- */
+  .fact-title {
+    margin-top: 10px;
+    font-weight: 700px;
+    font-size: 45px;
+    line-height: 53px;
+  }
+  .fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 24px 0 100px 0;
+  }
+  .project-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 180px;
+  }
+  .icon-container {
+    margin-top: 20px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    text-align: center;
+    transition: transform 0.3s ease-out;
+  }
+  .icon-container:hover {
+    transform: scale(1.3);
+    background-color: #FF900E;
+  }
+  .icon-container:hover .project-number {
+    color: #FFFFFF;
+  }
+  .icon-container:hover .project-description {
+    color: #FFFFFF;
+  }
+  .icon-container img {
+    margin-top: 50px;
+  } 
+   .project-number {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin: 10px 0 5px 0;
+  }
+  .project-description {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+  }
+  /* ----------sponsor section start----------- */
+  .sponsor-container {
+    margin-bottom: 150px;
+  }
+  .sponsor-information {
+    text-align: center;
+  }
+  .sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+  }
+  .sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 24px 0 50px 0;
+  }
+  .sponsor-logo-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* ----------contact section start----------- */
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #f5911e0e;
+  }
+  .contact-title {
+    font-size: 70px;
+    font-weight: 700px;
+  }
+  .contact-site {
+    display: flex;
+    gap: 60px;
+    
+  }
+  .contact-site a{
+    color:#000000;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .contact:hover {
+    transform: scale(1.3);
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  .contact:hover span {
+    color: #FF900E;
+    font-weight: bold;
+  }
+  /* ----------footer section start----------- */
+  .footer-container {
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+  
+
+
+
+
+
+
+
+
+  
 
 
 
