@@ -147,7 +147,7 @@ nav {
     height: 200px;
     font-size: 65px;
     font-weight: 700px;
-    padding: 45px 42px;
+    padding: 40px 37px;
     background-color: #FF900E;
     border: none;
     border-radius: 8px;
@@ -161,7 +161,7 @@ nav {
   }
   /* ----------Project section start----------- */
   .fact-title {
-    margin-top: 10px;
+    margin-top: 130px;
     font-weight: 700px;
     font-size: 45px;
     line-height: 53px;
@@ -182,8 +182,8 @@ nav {
     margin-top: 20px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    width: 241.83px;
-    height: 241.83px;
+    width: 200.83px;
+    height: 200.83px;
     text-align: center;
     transition: transform 0.3s ease-out;
   }
@@ -198,7 +198,7 @@ nav {
     color: #FFFFFF;
   }
   .icon-container img {
-    margin-top: 50px;
+    margin-top: 32px;
   } 
    .project-number {
     font-weight: 600;
