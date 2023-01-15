@@ -106,6 +106,7 @@ nav {
     border-left: 5px solid #FF900E;
     height: 106px;
     padding-left: 20px;
+    width: 100%;
   }
   .acrhitect-title {
     font-weight: 700;
@@ -234,7 +235,7 @@ nav {
   }
   .sponsor-logo-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   /* ----------contact section start----------- */
@@ -255,7 +256,7 @@ nav {
   }
   .contact-site {
     display: flex;
-    gap: 60px;
+    gap: 40px;
     
   }
   .contact-site a{
