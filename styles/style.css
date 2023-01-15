@@ -64,6 +64,7 @@ nav {
     width: 100%;
     margin: 50px 0 45px 0;
   }
+  
   /* ----------header part end----------- */
 
   /* ----------main part start----------- */
@@ -102,13 +103,9 @@ nav {
     justify-content: center;
     gap: 54px;
   }
-  .architect-information {
-    border-left: 5px solid #FF900E;
-    height: 106px;
-    padding-left: 20px;
-    width: 100%;
-  }
   .acrhitect-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
@@ -129,13 +126,13 @@ nav {
   .article-item-title {
     font-weight: 600;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 20px;
     margin-bottom: 10px;
   }
   .article-item-description {
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 20px;
     color: #727272;
   }
   .architect-img img {
@@ -178,6 +175,7 @@ nav {
   .project-container {
     display: flex;
     justify-content: space-around;
+    gap: 40px;
     margin-bottom: 180px;
   }
   .icon-container {
@@ -200,7 +198,7 @@ nav {
     color: #FFFFFF;
   }
   .icon-container img {
-    margin-top: 32px;
+    margin-top: 50px;
   } 
    .project-number {
     font-weight: 600;
@@ -263,7 +261,7 @@ nav {
   }
   .contact-site a{
     color:#000000;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     font-weight: bold;
   }
@@ -286,6 +284,153 @@ nav {
     align-items: center;
     margin-bottom: 200px;
   }
+
+  .none {
+    display: none;
+  }
+/* ----------responsive header part start----------- */
+  @media (max-width: 576px) {
+    *{
+      margin: 0;
+    }
+    body {
+      height: 100%;
+      width: 100%;
+    }
+    .container {
+      margin: 0 30px;
+    }
+    /* -------------header part----------------- */
+    nav {
+      flex-direction: column;
+      padding-top: 5vh;
+      align-items: center;
+    }
+    nav ul {
+      margin-top: 3vh;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .nav-title {
+      font-weight: 700px;
+      font-size: 1.5rem;
+    }
+    .banner-container {
+      margin-top: 3rem;
+      text-align: center;
+    }
+    .banner-title {
+      font-weight: 700;
+      font-size: 2rem;
+      line-height: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    .banner-description {
+      margin-bottom: 15px;
+    }
+    .banner-img  img{
+      width: 100%;
+      margin: 25px 0 15px 0;
+   }
+   /* ------------features part---------------- */
+   .features-container {
+    flex-direction: column;
+    margin-bottom: 50px;
+   }
+   .features-img {
+    display: flex;
+    flex-direction: column;
+   }
+   /* ------------architect part----------- */
+   .architect-container {
+    flex-direction: column;
+   }
+  .acrhitect-title {
+    border-left: 3px solid #FF900E;
+    padding-left: 2px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+  }
+   .architect-img img {
+    padding-left: 0;
+   }
+  .btn-img {
+    margin-top: 10px;
+    bottom: 0;
+    left: 77px;
+    width: 200px;
+    height: 100px;
+    font-size: 35px;
+    font-weight: 700px;
+    padding: 20px 19px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+  }
+  .experience {
+    font-size: 15px;
+    font-weight: 500px;
+  }
+  /* ------project part----------- */
+  .fact-title {
+    margin-top: 40px;
+    font-weight: 700px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 33px;
+  }
+  .fact-description {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    color: #727272;
+    margin: 10px 0 30px 0;
+  }
+  .project-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  /* ------sponsor part----------- */
+  .sponsor-container {
+    margin-bottom: 50px;
+  }
+  .sponsor-information {
+    text-align: center;
+  }
+  .sponsor-description {
+    margin-bottom: 15px;
+  }
+  .sponsor-logo-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+  /* ------contact part----------- */
+  .contact-title {
+    font-size: 30px;
+    font-weight: 700px;
+  }
+  .contact-site {
+    flex-direction: column;
+  }
+   /* ------footer part----------- */
+   .footer-container {
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+  }
+    
+   
   
 
 
