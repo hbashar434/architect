@@ -291,7 +291,7 @@ main {
 /* ----------responsive header part start----------- */
 @media (max-width: 576px) {
   .container {
-    margin: 0 30px;
+    margin: 0 50px;
   }
   /* -------------header part----------------- */
   nav {
