@@ -140,6 +140,7 @@ nav {
   }
   .architect-img img {
     padding-left: 92px;
+    width: 100%;
   }
   .btn-img {
     position: relative;
@@ -183,8 +184,8 @@ nav {
     margin-top: 20px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    width: 200.83px;
-    height: 200.83px;
+    width: 241.83px;
+    height: 241.83px;
     text-align: center;
     transition: transform 0.3s ease-out;
   }
@@ -235,8 +236,9 @@ nav {
   }
   .sponsor-logo-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
   }
   /* ----------contact section start----------- */
   .contact-section {
@@ -256,7 +258,7 @@ nav {
   }
   .contact-site {
     display: flex;
-    gap: 40px;
+    gap: 60px;
     
   }
   .contact-site a{
